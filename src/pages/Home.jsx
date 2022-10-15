@@ -47,7 +47,7 @@ const Home = () => {
           <p>Get all users</p>
           <img src={RightArrow} alt="" />
         </HomeTab>
-        <HomeTab onClick={() => navigate("/block-campaigns")}>
+        <HomeTab onClick={() => navigate("/block-campaign")}>
           <img src={Close} alt="" />
           <p>Block campaigns</p>
           <img src={RightArrow} alt="" />

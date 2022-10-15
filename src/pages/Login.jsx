@@ -84,7 +84,7 @@ const Login = () => {
       };
       await axios(createConfig)
         .then((res) => {
-          localStorage.setItem("JoinMonie-Verify-Token", res.data.token);
+          localStorage.setItem("JoinMonie-Admin-Verify-Token", res.data.token);
         })
         .then(() => {
           navigate("/dashboard");

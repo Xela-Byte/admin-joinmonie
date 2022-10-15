@@ -34,6 +34,12 @@ export const DonationInputContainer = styled.div`
     outline: none;
     border: 1px solid ${colors.blue};
   }
+  & > textarea {
+    padding: 0.5rem;
+    margin-top: 5%;
+    outline: none;
+    border: 1px solid ${colors.blue};
+  }
   & > button {
     background: ${colors.blue};
     padding: 0.7rem;
