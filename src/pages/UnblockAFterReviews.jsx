@@ -41,7 +41,7 @@ const UnblockAfterReviews = () => {
     await axios(reportConfig)
       .then((res) => {
         console.log(res.data);
-        toast.success(res.data.message);
+        toast.success("Campaign has been unblocked successfully");
       })
       .catch((err) => {
         toast.error(err.response.data.message);
